@@ -1,0 +1,74 @@
+@import "raleway.css";
+
+html {
+  background-color: #212121;
+  font-family: "Raleway";
+  color: #f5f5f5;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: #212121;
+}
+
+header div {
+  margin: 10px;
+  box-sizing: content-box;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  margin-top: 0;
+  font-size: 45px;
+  background-image: linear-gradient(#ff4d0d, #ff4d0d);;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 5px;
+}
+
+.search { 
+  margin-top: 10px;
+  background-color: #2E2E2E;
+  border-radius: 12px;
+  font-size: 20px;
+  border: none;
+  color: #f5f5f5; 
+  padding: 10px;
+  height: 27px;
+  width: 200px;
+}
+
+footer {
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2E2E2E;
+}
+
+footer .menu {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-right: 10%;
+}
+footer ul {
+  width: 100%;
+}
+
+footer ul li{
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 5%;
+}
